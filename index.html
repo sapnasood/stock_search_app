@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stock Search Application</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class='container'>
+        <h1 class="header">Stock Search</h1>
+        <!-- Rendered buttons will get dumped here  -->
+        <div class='buttons-view'></div>
+        <form class="stock-form">
+            <label for="stock-input">Add a Stock Symbol</label>
+            <input class="stock-input" type="text"><br><br>
+            <!-- Button triggers new stock to be added -->
+            <button class="add-stock" type="button">Add a Stock Symbol</button>
+        </form>
+        <!--Div to hold stock information-->
+        <div class="stock-view">
+            <div class="row form_row row1 px-5">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 compLogo mt-4 font-weight-normal font-italic"></div>
+            </div>
+
+            <div class="row justify-content-left form_row row2">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col1_fontstyle tableInfo"></div>
+            </div>
+
+            <div class="row form_row row3 font-italic">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 compInfo1 font-weight-bold"></div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 compInfo2"></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+
+
+th,td{
+padding: 20px; 
+color: blue;
+border-top: 4px dashed blueviolet; 
+border-bottom: 4px dashed blueviolet; 
+
+}
+
+.stocks {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #5DADE2;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.stocks:hover {
+    background-color: #5DADE2;
+    color: white;
+}
+
+
+.header{
+    font-family: cursive;
+    font-size: 50px;
+    padding: 20px;
+};  
+
+.stock-form{
+    margin: 20px;
+    padding: 20px;
+   
+   };
+
